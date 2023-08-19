@@ -1,0 +1,8 @@
+header {
+}
+.weather{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 18px;
+}

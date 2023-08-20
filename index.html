@@ -7,49 +7,49 @@
     <title>Momentum App</title>
 </head>
 <body>
-    <div class="login hidden">
-        <form class="login__form">
-            <div class="login__input">
-                <input
-                required
-                maxlength="15"
-                type="text" 
-                placeholder="What's your name?" 
-                />
-                <input type="submit" value="♥" /> 
+    <img class="background-star" src="img/momentum-star.png"/>
+    <div class="screen">
+        <header>
+            <div class="weather">
+                <span></span>
+                <span></span>
             </div>
-        </form>
-    </div>
-    <header>
-        <div class="weather">
-            <span></span>
-            <span></span>
+        </header>
+        <div class="login hidden">
+            <form class="login__form">
+                <div class="login__input">
+                    <input
+                    required
+                    maxlength="15"
+                    type="text" 
+                    placeholder="What's your name?" 
+                    />
+                    <input type="submit" value="♥" /> 
+                </div>
+            </form>
         </div>
-    </header>
-    <div class="content">
         
-        <h2 class="clock">00:00</h2>
-        <h1 class="greeting" class="hidden"></h1>
-        <form class="todo-form">
+        <div class="content hidden">
             
-                <input 
-                required
-                maxlength="100"
-                type="text" 
-                placeholder="Write a To Do and Press Enter" />
-                <input type="submit">
-            
-        </form>
-        <ul class="todo-list"></ul>
-        <div class="quote">
-            <span></span>
-            <span></span>
+            <h2 class="clock">00:00</h2>
+            <h1 class="greeting"></h1>
+            <form class="todo-form">
+                    <input 
+                    required
+                    maxlength="100"
+                    type="text" 
+                    placeholder="To Do" />
+                    <input type="submit" value="♥">
+            </form>
+            <ul class="todo-list"></ul>
+            <div class="quote">
+                <span></span>
+                <span></span>
+            </div>
+    
         </div>
-
     </div>
-    <footer>
-        
-    </footer>
+    
     
     
     <script src="js/greeting.js"></script>
